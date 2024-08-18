@@ -1,0 +1,23 @@
+<section>
+  <h2>Downsampling code challenge</h2>
+  <p>
+    We have many more data points than pixels in the plots, and need to
+    downsample the timeseries to no more than a 1000 datapoints, for the second
+    chart. Modify the <code>'returnDownsampledData'</code> method in
+    <code>'src/chart/chart.component.ts'</code>, in order to achieve this.
+    Ideally the downsampled chart should be nearly visually identical, to the
+    original.
+  </p>
+</section>
+
+<div class="row">
+  <section>
+    <h4>Original timeseries</h4>
+    <app-chart [timeseriesData]="mockdata"></app-chart>
+  </section>
+
+  <section>
+    <h4>Downsampled timeseries</h4>
+    <app-chart [timeseriesData]="mockdata" [downsample]="true"></app-chart>
+  </section>
+</div>
