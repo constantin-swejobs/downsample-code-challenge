@@ -1,4 +1,10 @@
-# DownsamplingChallenge
+# Downsampling Code Challenge Submission
+
+(Constantin Panaitescu)
+
+![Demo Screen Capture](https://github.com/user-attachments/assets/86f51c3b-b2d3-4030-b85a-3dabe4fc1973)
+
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.13.
 
